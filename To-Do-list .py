@@ -85,7 +85,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Add",  
         width = 15,
-        bg='#D4AC0D',font=("arial", "14", "bold"),
+        bg='pink',font=("arial", "14", "bold"),
         command = add_task,
         
     )  
@@ -93,7 +93,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Remove",  
         width = 15,
-        bg='#D4AC0D', font=("arial", "14", "bold"),
+        bg='red', font=("arial", "14", "bold"),
         command = delete_task,  
     )  
     del_all_button = Button(  
@@ -101,7 +101,7 @@ if __name__ == "__main__":
         text = "Delete All",  
         width = 15,
         font=("arial", "14", "bold"),
-        bg='#D4AC0D',
+        bg='yellow',
         command = delete_all_tasks  
     )
     
@@ -109,7 +109,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Exit / Close",  
         width = 52,
-        bg='#D4AC0D',  font=("arial", "14", "bold"),
+        bg='green',  font=("arial", "14", "bold"),
         command = close  
     )    
     add_button.place(x = 18, y = 80,)  
